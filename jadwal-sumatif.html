@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Logo ditambahkan sebelum title -->
+  <link rel="icon" href="assets/img/Logo_SMP_Negeri_1_Cisauk-removebg-.png" type="image/jpeg">
+  <title>Jadwal Sumatif Akhir Semester</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #fef7f2;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 80px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #ff7f50;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #27426c;
+      margin-bottom: 20px;
+    }
+
+    .schedule-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .day-card {
+      background: #fff;
+      border: 2px solid #f0f0f0;
+      border-radius: 10px;
+      padding: 15px;
+      width: 220px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .day-card h3 {
+      font-size: 1.1rem;
+      color: #ff7f50;
+      margin-bottom: 10px;
+    }
+
+    .day-card p {
+      font-size: 0.9rem;
+      color: #555;
+      margin: 5px 0;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 1rem;
+      text-align: center;
+      color: #888;
+    }
+
+    .footer span {
+      font-weight: bold;
+      color: #27426c;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Menggunakan logo sekolah dari folder assets -->
+    <img src="assets/img/Logo SMP Negeri 1 Cisauk.jpg" alt="Logo Sekolah" class="logo">
+    <h1 class="title">Jadwal Sumatif Akhir Semester</h1>
+    <h2 class="subtitle">SMP Negeri 1 Cisauk</h2>
+  </header>
+  
+  <div class="schedule-container">
+    <div class="day-card">
+      <h3>Senin, 2 Desember</h3>
+      <p>07.30 - 09.30: Bahasa Indonesia</p>
+      <p>10.00 - 12.00: PAI</p>
+    </div>
+    <div class="day-card">
+      <h3>Selasa, 3 Desember</h3>
+      <p>07.30 - 09.30: Matematika</p>
+      <p>10.00 - 11.30: PKN</p>
+    </div>
+    <div class="day-card">
+      <h3>Rabu, 4 Desember</h3>
+      <p>07.30 - 09.30: Bahasa Inggris</p>
+      <p>10.00 - 11.30: PJOK</p>
+    </div>
+    <div class="day-card">
+      <h3>Kamis, 5 Desember</h3>
+      <p>07.30 - 09.30: IPA</p>
+      <p>10.00 - 11.30: Prakarya</p>
+    </div>
+    <div class="day-card">
+      <h3>Jumat, 6 Desember</h3>
+      <p>07.30 - 09.00: IPS</p>
+      <p>09.30 - 11.00: Informatika</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    Selamat Menempuh <span>Sumatif Akhir Semester</span>!
+  </footer>
+</body>
+</html>

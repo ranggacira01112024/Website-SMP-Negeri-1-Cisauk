@@ -1,2 +1,2 @@
-# Website-SMP-Negeri-1-Cisauk
-Website Sekolah SMP Negeri 1 Cisauk
+# SMP NEGERI 1 CISAUK ⋅ BERHATI ( BERKARAKTER, HIJAU, SEHAT, DAN INOVATIF )
+Jl. Raya Cisauk KM 2 Kec. Cisauk Kab. Tangerang Provinsi Banten
